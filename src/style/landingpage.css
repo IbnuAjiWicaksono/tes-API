@@ -1,0 +1,113 @@
+.bg{
+    background-image: url(../Aset/bg.jpg);
+    background-size: cover;
+    min-height:100vh;
+    color:#1e1e1e;
+}
+.judul{
+    padding-top: 13rem;
+    text-align: center;
+    font-size: 2rem;
+    padding-bottom: 0;
+    font-family: "Poppins";
+    color: #1e1e1e;
+    font-weight: 600;
+
+}
+.subjudul{
+    font-family: "Pacifico", cursive;
+    text-align: center;
+    font-size: 8rem;
+    color: #1e1e1e
+
+}
+.desc1{
+    text-align: center;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    font-family: "Poppins";
+    color: white;
+    font-size: 1rem;
+    text-shadow: 1px 1px 8px #1e1e1e;
+}
+
+.button{
+    padding-top: 0.5rem;
+    text-align: center;
+}
+.submit{
+    border-radius: 2rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    font-size: 1rem;
+    background-color: #ff2424;
+    color: white;
+}
+.submit:hover{
+    transition: ease-in-out 0.2s;
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+    border-radius: 3rem;
+    color: white;
+    background-color: #ab0404;
+}
+
+.backbut{
+    padding-bottom: 2rem;
+}
+.submit2{
+    border-radius: 2rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    font-size: 1rem;
+    background-color: #ff2424;
+    color: white;
+}
+.submit2:hover{
+    color: white;
+    background-color: #ab0404;
+}
+
+ 
+  /* Media query untuk layar kecil */
+  @media (max-width: 600px) {
+    .judul{
+        padding-top: 15rem;
+        font-size: 0.8rem;
+    }
+    .subjudul{
+        font-size: 3rem;
+    }
+    .desc{
+        font-size: 0.8rem;
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+    }
+  
+  /* Media query untuk layar sedang */
+  @media (min-width: 601px) and (max-width: 1024px) {
+    .judul{
+        padding-top: 15rem;
+        font-size: 1rem;
+    }
+    .subjudul{
+        font-size: 4rem;
+    }
+    .desc{
+        font-size: 1rem;
+    }
+  }
+  
+  /* Media query untuk layar besar */
+  @media (min-width: 1025px) {
+    .judul{
+        font-size: 1rem;
+    }
+    .subjudul{
+        font-size: 6rem;
+    }
+    .desc{
+        font-size: 1rem;
+    }
+  }
